@@ -62,7 +62,7 @@ El sistema clasificó los problemas en:
 - 🟡 Medios
 - 🟢 Bajos
 
-<img src="images/tags,level.png">
+<img src="image/tags,level.png">
 
 Además:
 
@@ -79,7 +79,7 @@ Inicialmente:
 Quality Gate: **Passed**  
 (A pesar de existir errores de alta severidad)
 
-<img src="images/primer analisis passed.png">
+<img src="image/primer analisis passed.png">
 
 
 Tras redefinir condiciones:
@@ -92,14 +92,14 @@ Resultado:
 
 Quality Gate: **Failed**
 
-<img src="images/segundo analisis Failed.png">
+<img src="image/segundo analisis Failed.png">
 
 
 Después de corregir el código y reanalizar:
 
 Quality Gate: **Passed**
 
-<img src="images/passed c# corregido.png">
+<img src="image/passed c# corregido.png">
 
 
 ---
@@ -122,7 +122,7 @@ El análisis puede ejecutarse automáticamente en:
 
 También se probó **SonarQube Cloud**, que simplifica la integración sin necesidad de instalación local, pero esta no permite en su versión gratuita añadir o modificar los Quality Gates
 
-<img src="images/passed cloud c# tras los cambios realizados.png">
+<img src="image/passed cloud c# tras los cambios realizados.png">
 
 ---
 
