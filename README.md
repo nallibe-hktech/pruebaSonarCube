@@ -28,14 +28,14 @@ El objetivo principal es demostrar:
 
 <hr>
 
-<h2 style="font-size:28px;">📂 Estructura del Proyecto</h2>
+<h2 style="font-size:28px;"> Estructura del Proyecto</h2>
 
 <p style="font-size:16px;">
 A continuación encontrarás diferentes carpetas organizadas por lenguaje.
 </p>
 
 <p style="font-size:18px;">
-👉 <b>Para revisar las pruebas y configuraciones, entra en cada carpeta.</b>
+ <b>Para revisar las pruebas y configuraciones, entra en cada carpeta.</b>
 </p>
 
 <ul style="font-size:16px;">
@@ -66,7 +66,7 @@ En la carpeta <b>/images</b> encontrarás capturas relacionadas con:
 
 <hr>
 
-<h2 style="font-size:28px;">⚙️ Tecnologías Utilizadas</h2>
+<h2 style="font-size:28px;"> Tecnologías Utilizadas</h2>
 
 <ul style="font-size:16px;">
   <li>.NET</li>
