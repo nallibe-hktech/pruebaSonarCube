@@ -6,7 +6,7 @@ Plataforma de análisis continuo para evaluación de calidad, mantenibilidad y s
 
 <p align="center">
   <img src="https://img.shields.io/badge/Tool-SonarQube-blue" />
-  <img src="https://img.shields.io/badge/Language-c#-yellow" />
+  <img src="https://img.shields.io/badge/Language-.NET-yellow" />
   <img src="https://img.shields.io/badge/Analysis-Static-green" />
   <img src="https://img.shields.io/badge/CI/CD-Integrated-orange" />
 </p>
@@ -36,7 +36,7 @@ Soporta más de 35 lenguajes y se integra fácilmente en entornos DevOps moderno
 
 - SonarQube desplegado mediante **Docker**
 - Proyecto de prueba desarrollado en **Python**
-- Reglas por defecto del perfil de calidad para Python
+- Reglas por defecto del perfil de calidad para .NET
 
 ---
 
@@ -62,6 +62,8 @@ El sistema clasificó los problemas en:
 - 🟡 Medios
 - 🟢 Bajos
 
+<img src="images/tags,level.png">
+
 Además:
 
 - Identifica línea exacta del error
@@ -77,6 +79,9 @@ Inicialmente:
 Quality Gate: **Passed**  
 (A pesar de existir errores de alta severidad)
 
+<img src="images/primer analisis passed.png">
+
+
 Tras redefinir condiciones:
 
 - Mantenibilidad obligatoria en nivel **A**
@@ -87,9 +92,15 @@ Resultado:
 
 Quality Gate: **Failed**
 
+<img src="images/segundo analisis Failed.png">
+
+
 Después de corregir el código y reanalizar:
 
 Quality Gate: **Passed**
+
+<img src="images/passed c# corregido.png">
+
 
 ---
 
@@ -110,6 +121,8 @@ El análisis puede ejecutarse automáticamente en:
 - Merges
 
 También se probó **SonarQube Cloud**, que simplifica la integración sin necesidad de instalación local, pero esta no permite en su versión gratuita añadir o modificar los Quality Gates
+
+<img src="images/passed cloud c# tras los cambios realizados.png">
 
 ---
 
