@@ -1,5 +1,5 @@
 <h1 align="center" style="font-family: Arial; font-size: 42px;">
- SonarQube Python Quality Project
+ SonarQube Quality Project
 </h1>
 
 <p align="center" style="font-size:18px;">
