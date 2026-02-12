@@ -79,7 +79,7 @@ Inicialmente:
 Quality Gate: **Passed**  
 (A pesar de existir errores de alta severidad)
 
-<img src="image/primer analisis passed.png">
+<img src="image/primer analisis Passed.png">
 
 
 Tras redefinir condiciones:
