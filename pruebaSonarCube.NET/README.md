@@ -88,6 +88,8 @@ Tras redefinir condiciones:
 - Complejidad cognitiva promedio ≤ 15
 - Código duplicado ≤ 5%
 
+<img src="image/quality gates en .NET.png">
+
 Resultado:
 
 Quality Gate: **Failed**
@@ -99,7 +101,7 @@ Después de corregir el código y reanalizar:
 
 Quality Gate: **Passed**
 
-<img src="image/passed c# corregido.png">
+<img src="image/passed .NET corregido.png">
 
 
 ---
@@ -122,7 +124,7 @@ El análisis puede ejecutarse automáticamente en:
 
 También se probó **SonarQube Cloud**, que simplifica la integración sin necesidad de instalación local, pero esta no permite en su versión gratuita añadir o modificar los Quality Gates
 
-<img src="image/passed cloud c# tras los cambios realizados.png">
+<img src="image/passed cloud .NET tras los cambios realizados.png">
 
 ---
 
