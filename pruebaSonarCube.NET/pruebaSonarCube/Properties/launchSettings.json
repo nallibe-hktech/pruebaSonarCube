@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "pruebaSonarCube": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
